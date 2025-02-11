@@ -11,4 +11,20 @@ This is a fork from [daivasmara](https://github.com/Daivasmara/daivasmara.zsh-th
 
 ## Installation
 
-[https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes)
+### Oh my zsh
+
+Install the zsh theme [by following this guide](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes).
+
+### Kitty
+
+Install the kitty's ayu theme, if you want by running `kitty +kitten themes`.  
+
+If you want to install it manually, you can copy [ayu-gzn-theme.conf](./ayu-gzn-theme.conf)
+next to your kitty configuration file (commonly seen at `~/.config/kitty/`) and
+adding the following line:
+
+```bash
+# BEGIN_KITTY_THEME
+include ayu-gzn-theme.conf
+# END_KITTY_THEME
+```
