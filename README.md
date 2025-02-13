@@ -17,14 +17,15 @@ Install the zsh theme [by following this guide](https://github.com/ohmyzsh/ohmyz
 
 ### Kitty
 
-Install the kitty's ayu theme, if you want by running `kitty +kitten themes`.  
+To replicate the colors from the reference image, you can either:
 
-If you want to install it manually, you can copy [ayu-gzn-theme.conf](./ayu-gzn-theme.conf)
+* Install the kitty's ayu theme, if you want by running `kitty +kitten themes`.  
+* Install a custom version manually, you can copy [ayu-gzn-theme.conf](./ayu-gzn-theme.conf)
 next to your kitty configuration file (commonly seen at `~/.config/kitty/`) and
 adding the following line:
 
 ```bash
 # BEGIN_KITTY_THEME
-include ayu-gzn-theme.conf
+include gzn-theme.conf
 # END_KITTY_THEME
 ```
